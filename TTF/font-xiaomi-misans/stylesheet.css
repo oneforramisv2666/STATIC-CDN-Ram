@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'MiSans Normal';
+    src: url('MiSans-Normal.eot');
+    src: url('MiSans-Normal.eot?#iefix') format('embedded-opentype'),
+        url('MiSans-Normal.woff2') format('woff2'),
+        url('MiSans-Normal.woff') format('woff'),
+        url('MiSans-Normal.svg#MiSans-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
