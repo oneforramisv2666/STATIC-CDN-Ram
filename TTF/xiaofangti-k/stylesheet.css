@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'shetumodengxiaofangti';
+    src: url('shetumodengxiaofangti.eot');
+    src: url('shetumodengxiaofangti.eot?#iefix') format('embedded-opentype'),
+        url('shetumodengxiaofangti.woff2') format('woff2'),
+        url('shetumodengxiaofangti.woff') format('woff'),
+        url('shetumodengxiaofangti.svg#shetumodengxiaofangti') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
