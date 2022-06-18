@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <!-- MDUI JavaScript -->
+    <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+    <!-- MDUI CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
+    <title>Hello, world!</title>
+    <script>
+    copy() {
+      var Url2 = document.getElementById("inviteCode").innerText;
+      var oInput = document.createElement("input");
+      oInput.value = Url2;
+      document.body.appendChild(oInput);
+      oInput.select(); // 选择对象
+      document.execCommand("Copy"); // 执行浏览器复制命令
+      oInput.className = "oInput";
+      oInput.style.display = "none";
+      msg("复制成功");
+    }
+
+    </script>
+  </head>
+  <body class="mdui-theme-primary-indigo mdui-theme-accent-pink">
+    <p align="center" class="mdui-typo-display-2">RCDN Globe</p>
+    <div class="mdui-progress">
+        <div class="mdui-progress-indeterminate"></div>
+    </div>
+    <p> </p>
+    <p> </p>
+    <div class="example-demo">
+        <div class="mdui-row">
+          <div class="mdui-col-sm-6 mdui-col-md-4">
+            <div class="mdui-card">
+              <div class="mdui-card-media">
+                <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg">
+                <div class="mdui-card-media-covered">
+                    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>  
+                  <div class="mdui-card-primary">
+                    <div class="mdui-card-primary-title">RCDN</div>
+                    <div class="mdui-card-primary-subtitle">本CDN由Ramsong维护运营</div>
+                  </div>
+                  <div class="mdui-card-actions">
+                    <button class="mdui-btn mdui-ripple mdui-ripple-white">Saft</button>
+                    <button class="mdui-btn mdui-ripple mdui-ripple-white">Quick</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="https://api.vvhan.com/api/ip?s=Ram" alt="awaapi">
+        </div>
+      </div>
+        <div>
+            <script type="text/javascript">
+                function copyText() {
+                  var text = document.getElementById("text").innerText;
+                  var input = document.getElementById("input");
+                  input.value = text; // 修改文本框的内容
+                  input.select(); // 选中文本
+                  document.execCommand("copy"); // 执行浏览器复制命令
+                  alert("复制成功");
+                }
+              </script> 
+  <style type="text/css">
+    .wrapper {
+      position: relative;
+    }
+    #input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      z-index: -10;
+    }
+  </style>
+           <div class="wrapper">
+            <p id="text" style="display:none;" >https://gcdn.ramsong.cn/ok.txt</p>
+            <textarea id="input">这是幕后黑手</textarea>
+            <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple" onclick="copyText()">解决某些网络问题</button>
+          </div>
+      
+        </div>
+  </body>
+</html>
